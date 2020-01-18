@@ -5,7 +5,7 @@
 Name:           perl-Module-Build
 Epoch:          2
 Version:        %{cpan_version_major}%{?cpan_version_minor:.%cpan_version_minor}
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Build and install Perl modules
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -119,6 +119,9 @@ LANG=C TEST_SIGNATURE=1 MB_TEST_EXPERIMENTAL=1 ./Build test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2:0.40.05-2
+- Mass rebuild 2013-12-27
+
 * Mon Apr 29 2013 Jitka Plesnikova <jplesnik@redhat.com> - 2:0.40.05-1
 - 0.4005 bump
 
